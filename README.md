@@ -9,7 +9,7 @@ Komso web application is a clone site of the popularly known african online mark
  
   <strong> Libaries : </strong> Bootstrap , Jquery.
   
-  Access this site  here  <a href="kosmo.davisisibor.com"> Kosmo Officail Site </a> 
+  Access this site  here  <a href="www.kosmo.davisisibor.com"> Kosmo Officail Site </a> 
   
   
   <strong> What i learned : </strong> 
