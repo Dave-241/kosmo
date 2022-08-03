@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <link rel="icon" href="img/K.png">
+    <title>Buy Products Online</title>
+</head>
+<body>
+    <!-- *********MAIN FOOTER STARTS -->
+    <nav id="nav">
+        <a id="logo" href="index.html"><img src="img/Kosmo.png" alt=""></a>
+        <div id="nav_m">
+            <a href="saved.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Saved"><i class=" bi_s bi bi-bookmark-fill" ></i></a>
+            <a href="messages.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My messages"><i class=" bi_s bi bi-chat-left-dots-fill"></i></a> 
+            <a href="notification.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Notification"><i class=" bi_s bi bi-bell-fill"></i></a>
+            <a href="premium.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Premium Service"><i class=" bi_s bi bi-credit-card-2-back-fill"></i>
+            </a>
+            <a href="adverts.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My Adverts"><i class=" bi_s bi bi-kanban-fill"></i></a>
+            <a href="#" id="l_name">D</a>
+            <a href="login.html" id="m_btn">SELL</a>
+        </div>
+        <a href="#" id="u_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#login_form"><i class="bi bi-person-circle"></i></a>
+    </nav>
+
+<!-- ALERT INFO DIV -->
+<!-- for signup click -->
+<section id="alert_info_wrapper" name="signup">
+<div class="alert_info">Hello there this is just a demo frontend project , no database included, no legit login procedure. hope your enjoyed your experience...</div>
+</section>
+<!-- for login click -->
+<section id="alert_login_wrapper" name="login">
+<div class="alert_info">oops... i know you really want to create an account here, but we are sorry no client login avaliable, maybe try another time. smiles</div>
+</section>
+<!-- ALERT INFO DIV ends -->
+
+<!-- user menu opt -->
+<section id="close_user">
+<div id="u_dash">
+    <a href="profile.html" class="u_dash_info"><i class="bi bi-person-circle me-3" ></i>My Account</a>
+    <a href="#" class="u_dash_info">Feedback</a>
+    <a href="#"  class="u_dash_info">performance</a>
+    <a href="#" class="u_dash_info border-1 border" ><i class="bi bi-currency-dollar me-3"></i>My Balance</a>
+    <a href="#" class="u_dash_info">Settings</a>
+    <a href="#" class="u_dash_info">Log Out</a>
+</div>
+</section>
+<!-- user menu opt ends -->
+
+
+<!-- mobile user menu -->
+<div class="m_login offcanvas offcanvas-bottom" id="login_form">
+    <div>
+
+    <div id="m_login_btn" class="pb-3"><a class="c_login_btn" id="signup_btn" href="login.html" >Signup Now</a></div>
+    <div id="m_login_btn" class="pb-3"><a class="c_login_btn" id="signup_btn" href="login.html" >Login now</a></div>
+
+</div>
+</div>
+<!-- mobile user menu ends-->
+
+<!-- MAIN HEADER ENDS -->
+
+<!-- PROCUCT CATALOGUE BEGINS -->
+
+<section id="product">
+    <div class="p_breakdown">
+        <p>
+            <span>Describe1</span>
+            <span>Describe2</span>
+            <span>Describe3</span>
+            <span>Describe4</span>
+            <span>Describe5</span>
+        </p>
+    </div>
+    <div id="filters">
+        <select name="" id="region">
+            <option value="">Region</option>
+            <option value="">The Atlantic Provinces. </option>
+                <option value="">Central Canada.</option>
+                <option value="">The West Coast.</option>
+                <option value="">The Northern Territories.</option>
+                <option value="">The Prairie Provinces.</option>
+        </select>
+        <select name="" id="condition">
+            <option value="">Condition</option>
+            <option value="">Already Used</option>
+            <option value="">Brand New </option>
+        </select>
+        <select name="" id="price">
+            <option value="">Price $</option>
+            <option value="">$100 - $1000 </option>
+            <option value="">$500 - $5000 </option>
+            <option value="">$1000 - $10000 </option>
+            <option value="">$40000 - $100000 </option>
+            <option value="">$100000 Up </option>
+        </select>
+    </div>
+    <div id="sort">
+        <p>
+            <span>Sort by:</span>
+            <span><i class="bi bi-arrow-up"></i><i class="bi bi-arrow-down"></i></span>
+            <span>Recommended</span>
+            <span>|</span>
+            <span><i class="bi bi-clock"></i></span>
+            <span>Any time</span>
+        </p>
+    </div>
+ 
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="Vehicles">
+        <div class="item_pic_wrapper">
+            <img src="img/vehicle/tyre1.jpg" alt="" class="thum_show img_1">
+            <img src="img/vehicle/tyre1_thumb1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/vehicle/tyre1_thumb3.jpg" alt="" class="thum_hide img_3">
+            <img src="img/vehicle/tyre1_thumb4.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">GLK S50 Big For Nothing Jeep <br> <span class="item_tagline">Glk brand for sale . rebranded</span></p>
+                <p class="item_specific_name thum_hide">GLK S50 Big For Nothing Jeep</p>
+                <p class="item_views thum_hide">50 Views</p>
+                <p class="item_posted_time thum_hide">Posted 12 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs "> New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Lexus : <span class="ad_specs_header ad_2_spec_head">Make</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Rim : <span class="ad_specs_header ad_3_spec_head">Alloy rim</span></p>
+
+                <p class="ad_specs ad_4_spec_text">Wheels : <span class="ad_specs_header ad_4_spec_head">Wheels and parts</span></p>
+            </div>
+            <p class="thum_hide item_more_desc">Active and same day delivery within travelscott <br>
+                24hrs delivery outside travelscott 
+                SacowheelsNg serve the best wheel, <br>we have track records of client oeriented service.<br> 
+                We offer 30 days money back guarantee on any rim and auto purchased from sacowheel.<br>
+              </p>
+                <p class="item_seller_name thum_hide">Davis Bash</p>
+                <span class="item_price">$ 400.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Ed travelscott, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="Vehicles">
+        <div class="item_pic_wrapper">
+            <img src="img/vehicle/car2.jpg" alt="" class="thum_show img_1">
+            <img src="img/vehicle/car2_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/vehicle/car2_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/vehicle/car2_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Mercedes-Benz C200 2009 Silver <br> <span class="item_tagline">Extremely clean and sound with sparkling clean leather interior</span></p>
+                <p class="item_specific_name thum_hide">Mercedes-Benz C200 2009 Silver</p>
+                <p class="item_views thum_hide">10 Views</p>
+                <p class="item_posted_time thum_hide">Posted 2 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs "> New : <span class="ad_specs_header ">Condition</span></p>
+                <p class="ad_specs "> No faults : <span class="ad_specs_header "> Second Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Mercedes-Benz : <span class="ad_specs_header ad_2_spec_head">Make</span></p>
+
+                <p class="ad_specs ad_3_spec_text">2009 : <span class="ad_specs_header ad_3_spec_head">manufacture</span></p>
+                    
+                <p class="ad_specs ad_4_spec_text">Silver : <span class="ad_specs_header ad_4_spec_head">Color</span></p>
+            </div>
+            <p class="thum_hide item_more_desc">Full free delivery for all customers . <br> Just a contact below</p>
+                <p class="item_seller_name thum_hide">Davis Bash</p>
+                <span class="item_price">$ 100000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Bathrust , Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="Baby">
+        <div class="item_pic_wrapper">
+            <img src="img/baby/babytoy1.jpg" alt="" class="thum_show img_1">
+            <img src="img/baby/baby1_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/baby/baby1_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/baby/baby1_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Tokunbo Uk Used 4in1<br> <span class="item_tagline">Baby sitter for children . helps sit comfortably and warmly</span></p>
+                <p class="item_specific_name thum_hide">Tokunbo Uk Used 4in1 Graco High Feeding Chair</p>
+                <p class="item_views thum_hide">3 Views</p>
+                <p class="item_posted_time thum_hide">Posted 2 Days ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Used : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Unisex : <span class="ad_specs_header ad_2_spec_head">Gender</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Brown : <span class="ad_specs_header ad_3_spec_head">Color</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Feeding Chair : <span class="ad_specs_header ad_3_spec_head">Type</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">How to order, please kindly screenshot the picture of the item you want and send it to this number added to this post
+                </p>
+                <p class="item_seller_name thum_hide">Day2day trading</p>
+                <span class="item_price">$ 300.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Airdrie Alberta, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">VIP++</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="cv">
+        <div class="item_pic_wrapper">
+            <img src="img/cv/woamn1.jpg" alt="" class="thum_show img_1">
+            <img src="" alt="" class="thum_hide img_2">
+            <img src="" alt="" class="thum_hide img_3">
+            <img src="" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Online Sales Personal<br> <span class="item_tagline">sales</span></p>
+                <p class="item_specific_name thum_hide">Online Sales Personal</p>
+                <p class="item_views thum_hide">1 View</p>
+                <p class="item_posted_time thum_hide">Posted 2 Weeks ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs "> Part-time : <span class="ad_specs_header ">job type</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Self-Employed
+                    : <span class="ad_specs_header ad_2_spec_head">Employment Status</span></p>
+                <p class="ad_specs ad_2_spec_text">online marketing
+                    : <span class="ad_specs_header ad_2_spec_head">Skills </span></p>
+                <p class="ad_specs ad_2_spec_text">English
+                    : <span class="ad_specs_header ad_2_spec_head">Languages </span></p>
+
+                <p class="ad_specs ad_3_spec_text">25 : <span class="ad_specs_header ad_3_spec_head">Age</span></p>
+
+                <p class="ad_specs ad_3_spec_text">4 years : <span class="ad_specs_header ad_3_spec_head">Work Experience</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">we deal on baby socks wears <br> Active 24/7 delivery</p>
+                <p class="item_seller_name thum_hide">Rosset pail</p>
+                <span class="item_price">$ 400.00 - 700.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Airdrie Alberta, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>1</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="Baby">
+        <div class="item_pic_wrapper">
+            <img src="img/baby/baby1.jpg" alt="" class="thum_show img_1">
+            <img src="img/baby/baby1_sock1.jpg" alt="" class="thum_hide img_2">
+            <img src="" alt="" class="thum_hide img_3">
+            <img src="" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Girls Ankle Socks <br> <span class="item_tagline">confortable socks for children</span></p>
+                <p class="item_specific_name thum_hide">Girls Ankle Socks</p>
+                <p class="item_views thum_hide">10 Views</p>
+                <p class="item_posted_time thum_hide">Posted 10 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Brand New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Other : <span class="ad_specs_header ad_2_spec_head">Type</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Pink, White, Blue : <span class="ad_specs_header ad_3_spec_head">Color</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">we deal on baby socks wears <br> Active 24/7 delivery</p>
+                <p class="item_seller_name thum_hide">Davis Bash</p>
+                <span class="item_price">$ 100.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Airdrie Alberta, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">PRO+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="fashion">
+        <div class="item_pic_wrapper">
+            <img src="img/fashion/fashion1.jpg" alt="" class="thum_show img_1">
+            <img src="img/fashion/fashion1_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/fashion/fashion1_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/fashion/fashion1_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">NEWIN Harvard Rhinestone Shoulder<br> <span class="item_tagline">Dresses that suit you</span></p>
+                <p class="item_specific_name thum_hide">NEWIN Harvard Rhinestone Shoulder Pad Dress </p>
+                <p class="item_views thum_hide">80 Views</p>
+                <p class="item_posted_time thum_hide">Posted 8 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Brand New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Dresses : <span class="ad_specs_header ad_2_spec_head">Type</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Formal : <span class="ad_specs_header ad_3_spec_head">Style</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Women's : <span class="ad_specs_header ad_3_spec_head">Gender</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">NEWIN  Harvard rhinestone shoulder pad dress... 10—20. <br> PRICE $400. <br> Plz note this dress has 2 quality. <br> don't buy low quality for high price' be guided  delivery</p>
+                <p class="item_seller_name thum_hide">Davis Bash</p>
+                <span class="item_price">$ 400.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Newfoundland, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label"></span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="fashion">
+        <div class="item_pic_wrapper">
+            <img src="img/fashion/fashion2.jpg" alt="" class="thum_show img_1">
+            <img src="img/fashion/fashion2_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/fashion/fashion2_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/fashion/fashion2_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Crop Tops for Women<br> <span class="item_tagline">Crop tops, nice for all outings</span></p>
+                <p class="item_specific_name thum_hide">Crop Tops for Women </p>
+                <p class="item_views thum_hide">80 Views</p>
+                <p class="item_posted_time thum_hide">Posted 8 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Brand New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Tops : <span class="ad_specs_header ad_2_spec_head">Type</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Causual : <span class="ad_specs_header ad_3_spec_head">Style</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Women's : <span class="ad_specs_header ad_3_spec_head">Gender</span></p>
+
+                <p class="ad_specs ad_3_spec_text">White : <span class="ad_specs_header ad_3_spec_head">Color</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">Crop tops for women <br>
+                sunrise</p>
+                <p class="item_seller_name thum_hide">Patage Lousi</p>
+                <span class="item_price">$ 100.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Nova Scotia, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">PRO++</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="animal">
+        <div class="item_pic_wrapper">
+            <img src="img/animal/animal1.jpg" alt="" class="thum_show img_1">
+            <img src="img/animal/animal1_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/animal/animal1_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/animal/animal1_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">1-3 Months Male Purebred Lhasa Apso<br> <span class="item_tagline">puppies are harmless</span></p>
+                <p class="item_specific_name thum_hide">1-3 Months Male Purebred Lhasa Apso</p>
+                <p class="item_views thum_hide">10 Views</p>
+                <p class="item_posted_time thum_hide">Posted 2 minutes ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Brand New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Lhasa Apso : <span class="ad_specs_header ad_2_spec_head">Breed</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Male : <span class="ad_specs_header ad_3_spec_head">Gender</span></p>
+
+                <p class="ad_specs ad_3_spec_text">Purebred : <span class="ad_specs_header ad_3_spec_head">Breed type</span></p>
+
+                <p class="ad_specs ad_3_spec_text">1-3 months : <span class="ad_specs_header ad_3_spec_head">Age</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">Fully vaccinated puppies for sale. <br>
+                The household companion.</p>
+                <p class="item_seller_name thum_hide">Davis victor</p>
+                <span class="item_price">$ 900.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i> Ontario, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">VIP</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="mobile">
+        <div class="item_pic_wrapper">
+            <img src="img/mobile/phone1.jpg" alt="" class="thum_show img_1">
+            <img src="img/mobile/phone1_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/mobile/phone1_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">Apple iPhone 11 Pro Max 64 GB Gray<br> <span class="item_tagline">iphone's super pack</span></p>
+                <p class="item_specific_name thum_hide">Apple iPhone 11 Pro Max 64 GB Gray</p>
+                <p class="item_views thum_hide">30 Views</p>
+                <p class="item_posted_time thum_hide">Posted 2 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Brand New : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Apple Apso : <span class="ad_specs_header ad_2_spec_head">Brand</span></p>
+
+                <p class="ad_specs ad_3_spec_text">iPhone 11 Pro Max : <span class="ad_specs_header ad_3_spec_head">Model</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Super Retina OLED : <span class="ad_specs_header ad_3_spec_head">Display type</span></p>
+
+                <p class="ad_specs ad_3_spec_text">4 GB : <span class="ad_specs_header ad_3_spec_head">Ram</span></p>
+
+                <p class="ad_specs ad_3_spec_text">64 GB : <span class="ad_specs_header ad_3_spec_head">Interna Storage</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">Sharp iPhone 11 pro max everything working perfectly fine</p>
+                <p class="item_seller_name thum_hide">Davis Bash</p>
+                <span class="item_price">$ 1200.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i> Prince Edward, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">VIPTOP++</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>3</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="mobile">
+        <div class="item_pic_wrapper">
+            <img src="img/mobile/phone2.jpg" alt="" class="thum_show img_1">
+            <img src="img/mobile/phone2_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/mobile/phone2_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/mobile/phone2_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">New Amazon Fire HD <br> <span class="item_tagline"> 8 (2020) 32 GB Blue</span></p>
+                <p class="item_specific_name thum_hide">New Amazon Fire HD 8 (2020) 32 GB Blue</p>
+                <p class="item_views thum_hide">13 Views</p>
+                <p class="item_posted_time thum_hide">Posted 9 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Used : <span class="ad_specs_header ">Condition</span></p>
+
+                <p class="ad_specs ad_2_spec_text">Amazon : <span class="ad_specs_header ad_2_spec_head">Brand</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Fire HD 8 (2020) : <span class="ad_specs_header ad_3_spec_head">Model</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Android : <span class="ad_specs_header ad_3_spec_head">Operating system</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    NO : <span class="ad_specs_header ad_3_spec_head">Sim</span></p>
+                <p class="ad_specs ad_3_spec_text">
+                    microSD, up to 128GB : <span class="ad_specs_header ad_3_spec_head">Card Slot</span></p>
+
+                <p class="ad_specs ad_3_spec_text">2 GB : <span class="ad_specs_header ad_3_spec_head">Ram</span></p>
+
+                <p class="ad_specs ad_3_spec_text">32 GB : <span class="ad_specs_header ad_3_spec_head">Internal Storage</span></p>
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">Amazon fire HD 8 kids edition<br>
+                best kids tablet which under kids restrictions <br>
+                2 years worry free guarantee <br>
+                1 year of kids content with Amazon <br>freetime unlimited<br>
+                blue kidproof case with stand</p>
+                <p class="item_seller_name thum_hide">Davis Colru</p>
+                <span class="item_price">$ 120.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Used</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i> Quebec, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">TOP</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="property">
+        <div class="item_pic_wrapper">
+            <img src="img/property/house1.jpg" alt="" class="thum_show img_1">
+            <img src="img/property/house1_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/property/house1_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/property/house1_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">5 Bedroom Penthouse For Sale <br> <span class="item_tagline"> Fully furnished prop</span></p>
+                <p class="item_specific_name thum_hide">5 Bedroom Penthouse For Sale At Banana Island Ikoyi</p>
+                <p class="item_views thum_hide">53 Views</p>
+                <p class="item_posted_time thum_hide">Posted 1 hour ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Furnished : <span class="ad_specs_header ">Furnishing</span></p>
+
+                <p class="ad_specs ad_2_spec_text">6 : <span class="ad_specs_header ad_2_spec_head">Total rooms</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Standard : <span class="ad_specs_header ad_3_spec_head">Housing Quality</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Yukon, Whitehorse : <span class="ad_specs_header ad_3_spec_head">Property Address</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    NO : <span class="ad_specs_header ad_3_spec_head">Exchange Possible</span></p>
+             
+            </div>
+            <p class="thum_hide item_more_desc">For sale.... <br>
+                5 bedroom pent house on 11th floor,,at banana island.,..Lagos...1.3m usd..</p>
+                <p class="item_seller_name thum_hide">Andenji & Associates</p>
+                <span class="item_price">$ 220,000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Used</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>  Yukon, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">VIPT+++</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <a href="ad_listing.html"  class="i_tem_wrapper" category="property">
+        <div class="item_pic_wrapper">
+            <img src="img/property/house2.jpg" alt="" class="thum_show img_1">
+            <img src="img/property/house2_thum1.jpg" alt="" class="thum_hide img_2">
+            <img src="img/property/house2_thum2.jpg" alt="" class="thum_hide img_3">
+            <img src="img/property/house2_thum3.jpg" alt="" class="thum_hide img_4">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">4bdrm Duplex for Sale <br> <span class="item_tagline"> Fully furnished Duplex</span></p>
+                <p class="item_specific_name thum_hide">4bdrm Duplex for Sale </p>
+                <p class="item_views thum_hide">20 Views</p>
+                <p class="item_posted_time thum_hide">Posted 12 hours ago</p>
+                <div class="thum_hide item_sp_ecs">
+                <p class="ad_specs ">Semi-Furnished : <span class="ad_specs_header ">Furnishing</span></p>
+
+                <p class="ad_specs ad_2_spec_text">3 : <span class="ad_specs_header ad_2_spec_head">Total rooms</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Standard : <span class="ad_specs_header ad_3_spec_head">Housing Quality</span></p>
+
+                <p class="ad_specs ad_3_spec_text">
+                    Saskatchewan, Estevan : <span class="ad_specs_header ad_3_spec_head">Property Address</span></p>
+
+
+             
+            </div>
+            <p class="thum_hide item_more_desc">A well built Soaced 4Bedroom Terrace Duplex For Sale</p>
+                <p class="item_seller_name thum_hide">Aij Properties</p>
+                <span class="item_price">$ 500,000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>  Saskatchewan, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label"></span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>4</span>
+    </a>
+    <div class="product_spec_under_txt">Oops there is no product currently avaliable in this category. <a href="index.html">Find products in other categories ?</a> </div>
+</section>
+<!-- PROCUCT CATALOGUE ENDS -->
+
+<!-- FOOTER NAV STARTS -->
+<div id="f_nav">
+    <a href="index.html" class="f_menu_wrapper">
+        <i class="bi bi-house-door-fill"></i>
+        <p class="f_menu_info">Home</p>
+    </a>
+    <a href="saved.html" class="f_menu_wrapper">
+        <i class="bi bi-bookmark-fill"></i>
+        <p class="f_menu_info">Bookmark</p>
+    </a>
+    <a href="login.html" class="f_menu_wrapper">
+        <i class="bi bi-plus-square"></i>
+        <p class="f_menu_info">SELL</p>
+    </a>
+    <a href="messages.html" class="f_menu_wrapper">
+        <i class="bi bi-chat-left-dots-fill"></i>
+        <p class="f_menu_info">Messages</p>
+    </a>
+    <a href="profile.html" class="f_menu_wrapper">
+        <i class="bi bi-person-circle"></i>
+        <p class="f_menu_info">Profile</p>
+    </a>
+ 
+</div>
+<!-- FOOTER NAV ENDS -->
+
+
+
+
+<!-- FOOTER FILEM BEGINS -->
+
+
+<footer>
+<p id="mask_f"><img src="img/fottermask.png" alt="" ></p>
+<div class="fotter">
+    <div class="f_info">
+        <span>about us</span>
+        <a href="#">About kosmo</a>
+        <a href="#">WE are emloying</a>
+        <a href="#">Terms and conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Billing Policy</a>
+        <a href="#">Travel policy</a>
+    </div>
+    <div class="f_info">
+        <span>Support</span>
+        <a href="">Support@kosmo.ca</a>
+        <a href="#">Safety tips</a>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+    </div>
+    <div class="f_info">
+        <span>Our Apps</span>
+        <a href="#" class="app">GOGGLE PLAYSTORE</a>
+        <a href="#" class="app">APPLE PLAY</a>
+    </div>
+    <div class="f_info">
+        <span>Our Resources</span>
+        <a href="#">Our Blog</a>
+        <a href="#">KOsmo on FB</a>
+        <a href="#">Our Instagram</a>
+        <a href="#">Our Youtube</a>
+        <a href="#">Our Twitter</a>
+    </div>
+    <div class="f_info">
+        <span>Hot Links</span>
+        <a href="#">Kosmo sellers</a>
+        <a href="#">Regions</a>
+        <a href="#">Brand</a>
+        <a href="#">Kosmo Canada</a>
+    </div>
+</div>
+</footer>
+
+<!-- FOOTER FILEM ENDS -->
+
+<!-- SCRIPT FILE STARTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<!-- SCRIPT FILE ENDS -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--  SPECIAL DEIV ELEMENT (PRODUCTS)
+<div class="product_wrap_all"> 
+    <div class="i_tem_wrapper">
+        <div class="item_pic_wrapper">
+            <img src="img/h_thumb/baby.png" alt="" class="thum_show">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">GLK S50 Big For Nothing Jeep <br> <span class="item_tagline">Original car plate number for sale bro lol</span></p>
+                <span class="item_price">$ 4000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Ed Moton, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </div>
+
+    <div class="i_tem_wrapper">
+        <div class="item_pic_wrapper">
+            <img src="img/h_thumb/baby.png" alt="" class="thum_show">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">GLK S50 Big For Nothing Jeep <br> <span class="item_tagline">Original car plate number for sale bro lol</span></p>
+                <span class="item_price">$ 4000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Ed Moton, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </div>
+</div>
+   -->

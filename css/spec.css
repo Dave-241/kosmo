@@ -1,0 +1,42 @@
+.m_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+ }
+
+ .m_login>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+
+ .m_login>div>input{
+    height: 2rem;
+    padding: 1px 4px;
+ }
+ .m_login>div>.login{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+ }
+ 
+
+ #m_login_btn>a{
+    width: 100%;
+    padding: 2px 8rem;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 255, 0.591);
+    border: none;
+    border-radius: 5px;
+ }
+
+ @media only screen and (max-width: 750px){
+    .m_login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       margin-top: 110px;
+     } 
+ }

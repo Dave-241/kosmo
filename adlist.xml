@@ -1,0 +1,118 @@
+     <p class="b_read_crumb_wrapper">
+    <span class="b_read_crumb">All ads</span>
+    <span class="mx-2">/</span>
+    <span class="b_read_crumb">Vehicles</span>
+   </p>
+   
+   <div id="lising-wraper">
+        <div class="listing_info_wrapper">
+            <div class="main_img_wrapper">
+                <img src="img/vehicle/tyre1.jpg" alt="" class="main_img">
+            </div>
+            <div class="thumb_img_wrapper">
+                <img src="img/vehicle/tyre1.jpg" alt="" class="ad_thum_img small_1">
+                <img src="img/vehicle/tyre1_thumb2.jpg" alt="" class="ad_thum_img small_2">
+                <img src="img/vehicle/tyre1_thumb3.jpg" alt="" class="ad_thum_img small_3">
+                <img src="img/vehicle/tyre1_thumb4.jpg" alt="" class="ad_thum_img small_4">
+            </div>
+            <div class="ad_name_wrapper">
+                <h3 class="ad_name mt-3"> <span class="nam">Boto and Winda Tyres </span> <span class=" ad_saved_num "><i class="  bi bi-bookmark pe-2" ></i>1</span></h3>
+
+                <p class="lead ad_few_des"> 
+                    <span class="ad_promoted">promoted</span>
+                    <span class="ad_posted"><i class="bi bi-clock"></i> posted 13 hours ago</span>
+                    <span class="ad_location"><i class="bi bi-geo-alt-fill"> Edmoton, Canada</i></span>
+                    <span class="ad_views">67 views</span>
+                </p>
+
+                <div class="ad_specs_wrapper">
+                    <p class="ad_specs">Brand New : <span class="ad_specs_header">Condition</span></p>
+
+                    <p class="ad_specs">Lexus : <span class="ad_specs_header">Make</span></p>
+
+                    <p class="ad_specs">Rim : <span class="ad_specs_header">Alloy rim</span></p>
+
+                    <p class="ad_specs">Wheels : <span class="ad_specs_header">Wheels and parts</span></p>
+                </div>
+
+                <div class="ad_more_des">
+                    <p>Active and same day delivery within Abuja <br>
+                        24hrs delivery outside Abuja 
+                        SacowheelsNg serve the best wheel, <br>we have track records of client oriented service.<br> 
+                        We offer 30 days money back guarantee on any rim and auto purchased from sacowheel.<br>
+                        Universal Alloywheels For all brands of Car 18inches 
+                        We have all kinds of rims available 
+                        Honda, Mercedes benz, Toyota, BMW, Ford and many others </p>
+
+                        <button  class="ad_contact_number ad_s"><i class="bi bi-telephone-x-fill"></i> Show contact</button>
+                </div>
+
+                <div class="ad_social_wrapper ">
+                    <i class="bi bi-facebook ad_social_h"></i>
+                    <i class="bi bi-twitter ad_social_h"></i>
+                    <i class="bi bi-whatsapp ad_social_h"></i>
+                    <i class="bi bi-envelope ad_social_h"></i>
+                </div>
+                <div class="ad_make_offer_wrapper">
+                <button class="ad_make_offer">Make an offer</button>
+            </div>
+            </div>
+        </div>
+        <div class="cutomer_info_wrapper">
+            <div class="ad_price_wrapper">
+                <p class="ad_price">$ 40,000</p>
+                <a href="#" class="ad_call_back">Request call back</a>
+            </div>
+
+            <div class="ad_profile_owner">
+                <div class="ad_wrap_first">
+                <div class="ad_wrapper_pic"><img src="img/profile_pic.jpg" alt="" class="ad_profile_pic"></div>
+                <p class="ad_profile_name"> <span class="seller_name"> Saco Wheels</span>  <span class="ad_add"><i class="bi bi-envelope ad_red"></i> Typically replies within few hours</span> <span class="ad_add"><i class="bi bi-check-circle-fill"></i> 3yrs on kosmo</span></p>
+            </div>
+
+            <button  class="ad_seller_contact ad_s">Show contact</button>
+            <button class="ad_start_chat"><i class="bi bi-chat-left-dots"></i> Start chat</button>
+
+            <div class="ad_start_chatbox_wrapper">
+                <p class="ad_start_chatbox_header">
+                    <span>Your Message</span>
+                    <button  class="bg_none close_chat"><i class="bi bi-x-lg"></i></button>
+                </p>
+              <p class="ad_start_chatbox_body">
+                    <button class="start_chatbox_text">Please call me </button>
+                    <button class="start_chatbox_text">Is this Avaliable</button>
+                    <button class="start_chatbox_text">Last price</button>
+                </p>
+                <div class="form-floating mb-3 ad_mess_input lower_z">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="message here">
+                    <label for="floatingInput">Type message here</label>
+                  </div>
+                  <a href="#" class="start_chat">Start chat</a> 
+                 
+                  </div>
+            </div>
+            
+
+            <div class="ad_feedback_wrapper">
+                <a href="#" class="ad_feedback">
+                    <span class="ad_r_num"><i class="bi bi-emoji-smile-fill"></i> 5 Feedbacks</span>
+                    <span class="ad_r_viewall">view all <i class="bi bi-box-arrow-up-right"></i></span>
+                </a>
+            </div>
+
+            <div class="ad_safety_tip">
+                <p class="ad_safety_head">Safety Tips</p>
+                <ul class="ad_safty_list">
+                    <li class="ad_list">Remember, don't send any pre-payments</li>
+                    <li class="ad_list">Meet the seller at a safe public place</li>
+                    <li class="ad_list">Inspect the goods to make sure they meet your needs</li>
+                    <li class="ad_list">Check all documentation and only pay if you're satisfied</li>
+                    </ul>
+                    <a href="#" class="ad_report"><i class="bi bi-flag-fill ad_red"></i> Report abuse</a>
+            </div>
+
+            <div class="ad_post_ad_wrapper">
+                <a href="#" class="ad_post_ad">Post Ad like this</a>
+            </div>
+        </div>
+   </div>

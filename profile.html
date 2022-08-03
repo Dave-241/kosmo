@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="home_spec.css">
+    <link rel="stylesheet" href="css/other.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="img/K.png">
+    <title>Profile</title>
+    
+</head>
+<body>
+    <!-- *********MAIN FOOTER STARTS -->
+    <nav id="nav">
+        <a id="logo" href="index.html"><img src="img/Kosmo.png" alt=""></a>
+        <div id="nav_m">
+            <a href="saved.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Saved"><i class=" bi_s bi bi-bookmark-fill" ></i></a>
+            <a href="messages.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My messages"><i class=" bi_s bi bi-chat-left-dots-fill"></i></a> 
+            <a href="notification.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Notification"><i class=" bi_s bi bi-bell-fill"></i></a>
+            <a href="premium.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Premium Service"><i class=" bi_s bi bi-credit-card-2-back-fill"></i>
+            </a>
+            <a href="adverts.html" class="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My Adverts"><i class=" bi_s bi bi-kanban-fill"></i></a>
+            <a href="#" id="l_name">D</a>
+            <a href="login.html" id="m_btn">SELL</a>
+        </div>
+        <a href="#" id="u_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#login_form"><i class="bi bi-person-circle"></i></a>
+    </nav>
+
+<!-- ALERT INFO DIV -->
+<!-- for signup click -->
+<section id="alert_info_wrapper" name="signup">
+<div class="alert_info">Hello there this is just a demo frontend project , no database included, no legit login procedure. hope your enjoyed your experience...</div>
+</section>
+<!-- for login click -->
+<section id="alert_login_wrapper" name="login">
+<div class="alert_info">oops... i know you really want to create an account here, but we are sorry no client login avaliable, maybe try another time. smiles</div>
+</section>
+<!-- ALERT INFO DIV ends -->
+
+<!-- user menu opt -->
+<section id="close_user">
+<div id="u_dash">
+    <a href="profile.html" class="u_dash_info"><i class="bi bi-person-circle me-3" ></i>My Account</a>
+    <a href="#" class="u_dash_info">Feedback</a>
+    <a href="#"  class="u_dash_info">performance</a>
+    <a href="#" class="u_dash_info border-1 border" ><i class="bi bi-currency-dollar me-3"></i>My Balance</a>
+    <a href="#" class="u_dash_info">Settings</a>
+    <a href="#" class="u_dash_info">Log Out</a>
+</div>
+</section>
+<!-- user menu opt ends -->
+
+
+<!-- mobile user menu -->
+<div class="m_login offcanvas offcanvas-bottom" id="login_form">
+    <div>
+
+    <div id="m_login_btn" class="pb-3"><a class="c_login_btn" id="signup_btn" href="login.html" >Signup Now</a></div>
+    <div id="m_login_btn" class="pb-3"><a class="c_login_btn" id="signup_btn" href="login.html" >Login now</a></div>
+
+</div>
+</div>
+<!-- mobile user menu ends-->
+
+<!-- *********MAIN HEADER ENDS -->
+
+
+<!-- MAIN DESIGN STARTS -->
+
+<div class="profile_wrapper">
+    <div class="profile_1_wrapper">
+        <div class="profile_logo_wrapper">
+            <p class="profile_text">
+                <span class="p_logo">D</span>
+                <span class="p_text">Davis Isibor</span>
+            </p>
+            <a href="#" class="profile_setting">
+                <span class="p_setting">Settings</span>
+                <span class="p_set_icon"><i class="bi bi-gear-fill"></i></span>
+            </a>
+        </div>
+        
+        <div class="profile_text_wrapper">
+            <a href="adverts.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-list-columns-reverse"></i></span>
+                <span class="p_text1">My Adverts</span>
+            </a>
+        </div>
+        <div class="profile_text_wrapper">
+            <a href="feedback.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-emoji-smile-fill"></i></span>
+                <span class="p_text1">Feedback</span>
+            </a>
+        </div>
+        <div class="profile_text_wrapper">
+            <a href="#" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-bar-chart-fill"></i></span>
+                <span class="p_text1">Performance</span>
+            </a>
+        </div>
+        
+    </div>
+    <div class="profile_2_wrapper">
+        <div class="profile_text_wrapper">
+            <a href="premium.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-gem text-primary"></i></span>
+                <span class="p_text1">Premium Services</span>
+            </a>
+        </div>
+
+        <div class="profile_text_wrapper">
+            <a href="balance.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-piggy-bank-fill"></i></span>
+                <span class="p_text1">my Balance</span>
+            </a>
+        </div> 
+
+    </div>
+    <div class="profile_3_wrapper">
+                <div class="profile_text_wrapper">
+            <a href="followers.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-person-lines-fill"></i></span>
+                <span class="p_text1">Followers</span>
+            </a>
+        </div> 
+        <div class="profile_text_wrapper">
+            <a href="notification.html" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-bell-fill"></i></span>
+                <span class="p_text1">Notification</span>
+            </a>
+        </div> 
+    </div>
+    <div class="profile_4_wrapper">
+        <div class="profile_text_wrapper">
+            <a href="#" class="profile_text1 man_btn_c">
+                <span class="p_icon1"><i class="bi bi-telephone-forward-fill"></i></span>
+                <span class="p_text1">Managers Call</span>
+            </a>
+        </div> 
+        <div class="profile_text_wrapper">
+            <a href="#" class="profile_text1">
+                <span class="p_icon1"><i class="bi bi-question-octagon-fill"></i></span>
+                <span class="p_text1">Freqeuntly Asked Questions</span>
+            </a>
+        </div> 
+    </div>
+</div>
+
+<!-- MANAGERS CALL MODAL -->
+
+<div class="man_Call_Wrapper">
+    <div class="man_body_wrapper">
+        <button class="man_button"><i class="bi bi-x-lg"></i></button>
+        <p class="man_w_call">Do you want Jiji Manager to call you?</p>
+        <button class="man_yes">Yes</button>
+        <button class="man_no">No</button>
+    </div>
+</div>
+<!-- FOOTER NAV STARTS -->
+<div id="f_nav">
+    <a href="index.html" class="f_menu_wrapper">
+        <i class="bi bi-house-door-fill"></i>
+        <p class="f_menu_info">Home</p>
+    </a>
+    <a href="saved.html" class="f_menu_wrapper">
+        <i class="bi bi-bookmark-fill"></i>
+        <p class="f_menu_info">Bookmark</p>
+    </a>
+    <a href="login.html" class="f_menu_wrapper">
+        <i class="bi bi-plus-square"></i>
+        <p class="f_menu_info">SELL</p>
+    </a>
+    <a href="messages.html" class="f_menu_wrapper">
+        <i class="bi bi-chat-left-dots-fill"></i>
+        <p class="f_menu_info">Messages</p>
+    </a>
+    <a href="profile.html" class="f_menu_wrapper link_active">
+        <i class="bi bi-person-circle"></i>
+        <p class="f_menu_info">Profile</p>
+    </a>
+ 
+</div>
+<!-- FOOTER NAV ENDS -->
+
+
+
+
+
+
+
+
+<!-- SCRIPT FILE STARTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+<!-- SCRIPT FILE ENDS -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="product_wrap_all">  SPECIAL PRODUCT ELEMENT
+    <a class="i_tem_wrapper" href="#">
+        <div class="item_pic_wrapper">
+            <img src="img/h_thumb/baby.png" alt="" class="thum_show">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">GLK S50 Big For Nothing Jeep <br> <span class="item_tagline">Original car plate number for sale bro lol</span></p>
+                <span class="item_price">$ 4000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Ed Moton, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_bookmark"><i class="  bi bi-bookmark" ></i></span>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </a>
+
+    <a class="i_tem_wrapper" href="#">
+        <div class="item_pic_wrapper">
+            <img src="img/h_thumb/baby.png" alt="" class="thum_show">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+            <img src="" alt="" class="thum_hide">
+        </div>
+        <div class="item_info_wrapper">
+            <div class="item_name_wrapper">
+                <p class="item_name">GLK S50 Big For Nothing Jeep <br> <span class="item_tagline">Original car plate number for sale bro lol</span></p>
+                <span class="item_price">$ 4000.00</span>
+            </div>
+            <div>
+                <p class="item_condition">Brand New</p>
+            </div>
+            <div class="item_location_wrapper">
+                <p class="item_location"><i class="bi bi-geo-alt-fill"></i>Ed Moton, Canada</p>
+                <span class="item_promotion">Promoted</span>
+            </div>
+        </div>
+        <span class="item_label">10X VIP TOP+</span>
+        <span class="item_img_numb"><i class="bi bi-camera-fill pe-1"></i>2</span>
+    </a>
+</div> -->

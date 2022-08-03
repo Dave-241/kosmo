@@ -1,0 +1,287 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* PROCUCT STYLING BEGINS */
+
+#product{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trending{
+    color: rgba(0, 0, 0, 0.755);
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+/* PROCTS OPTION PLS THIS IS THE MAIN TAG */
+.i_tem_wrapper{
+    position: relative;
+    width: 30%;
+    height: 48vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.item_pic_wrapper{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid blue;
+}
+.item_info_wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 9px 11px;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.item_name_wrapper{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+.item_name{
+    font-weight: 900;
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, 0.929);
+    text-transform: capitalize;
+    
+}
+.item_price{
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 900;
+    
+}
+.item_condition{
+    display: none;
+}
+.item_promotion{
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+    color: gray;
+}
+.item_location{
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+    color: gray;
+}
+.item_tagline{
+    display: none;
+}
+
+.item_location_wrapper{
+    display: none;
+}
+
+.item_label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    padding: 2px 4px;
+    color: white;
+    font-size: 0.7vw;
+}
+
+.item_img_numb{
+    position: absolute;
+    bottom: 30%;
+    font-size: 1vw;
+    left: 8px;
+    width:4vw;
+    text-align: center;
+    padding: 3px 4px;
+    background-color: rgba(0, 0, 0, 0.586);
+    color: white;
+    border-radius: 5px;
+}
+.item_bookmark{
+    border-radius: 100%;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 22%;
+    right: 10px;
+}
+.thum_hide{
+    display: none;
+}
+
+.thum_show{
+    width: 100%;
+    height: 100%;
+}
+.product_wrap_all{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+
+
+/* MOBILE NAV */
+@media only screen and (max-width: 750px){
+    body{
+        width: 100vw;
+    }
+
+#product{
+    
+    width: 98vw;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2vw;
+}
+.trending{
+    color: rgba(0, 0, 0, 0.755);
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+
+/* PROCTS OPTION PLS THIS IS THE MAIN TAG */
+.i_tem_wrapper{
+    position: relative;
+    border: 1px solid blue;
+    width: 40vw;
+    height: 55vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+
+}
+
+.item_pic_wrapper{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid blue;
+}
+.item_info_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 9px 4px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+
+.item_name_wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+.item_name{
+    font-weight: 900;
+    font-size: 2.5vw;
+    color: rgba(0, 0, 0, 0.929);
+    display: block;
+    text-transform: capitalize;
+    width: fit-content;
+}
+.item_price{
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 2vw;
+    font-weight: 900;
+    
+}
+.item_condition{
+    display: none;
+}
+.item_promotion{
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+    color: gray;
+}
+.item_location{
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+    color: gray;
+}
+.item_tagline{
+    display: none;
+}
+
+.item_location_wrapper{
+    display: none;
+}
+
+.item_label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    padding: 2px 4px;
+    color: white;
+    font-size: 2vw;
+}
+
+.item_img_numb{
+    position: absolute;
+    bottom: 30%;
+    font-size: 2vw;
+    left: 8px;
+    width:6vw;
+    text-align: center;
+    padding: 3px 4px;
+    background-color: rgba(0, 0, 0, 0.586);
+    color: white;
+    border-radius: 5px;
+}
+.item_bookmark{
+    border-radius: 100%;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 22%;
+    right: 10px;
+}
+.thum_hide{
+    display: none;
+}
+
+.thum_show{
+    width: 100%;
+    height: 100%;
+}
+.product_wrap_all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+}
+
+body{
+    overflow-x: hidden;
+}

@@ -1,0 +1,873 @@
+/* THIS CSS STYLING IS FOR OTHER PAGES PROBABLY */
+
+/* MY SAVED PAGE DESIGN STARTS */
+
+.saved_wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 96vw;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+.saved_first_sec{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.saved_btn{
+    background-color: transparent;
+    padding: 16px 18px;
+    border: none;
+    color: blue;
+    border-radius: 10px;
+}
+.saved_btn_active{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.342);
+}
+
+.second_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vw 0;
+    gap: 1vw;
+}
+.saved_find{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.saved_find:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.6s ease-in;
+}
+
+
+
+
+/* saved pages sty;ling ends */
+
+
+/* Messages styling page begings */
+.msg_wrapper{
+    width: 90vw;
+    height: 80vh;
+    background-color: transparent;
+    margin:24px auto;
+    display: flex;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+.msg_box{
+    position: relative;
+    width: 35vw;
+    height: 100%;
+    background-color: white;
+}
+.msg_writing{
+    background-color: rgba(128, 128, 128, 0.645);
+    width: 65vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.d_none{
+    display: none;
+}
+.msg_head_wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 2vw;
+    color: blue;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.msg_menu{
+    border: none;
+    padding: 6px 10px;
+    font-size: 3vw;
+    background-color: transparent;
+   
+}
+.msg_t_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.msg_img{
+    align-items: center;
+}
+
+.msg_info{
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    align-items: center;
+}
+
+.msg_find{
+    width: fit-content;
+    padding: 10px 26px;
+    background-color: #efba27;
+    color: white;
+    border-radius: 8px;
+}
+.msg_spec_modal{
+    background-color: t;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: auto;
+    border: 1px solid gray;
+    font-size: 2vw;
+    top: 6vh;
+    left: 11vw;
+}
+
+.msg_arc{
+    display: block;
+    font-size: 1vw;
+    padding: 8px 2px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid rgb(237, 232, 232);
+}
+.msg_arc:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* basic phone styling */
+@media only screen and (max-width: 750px){
+.msg_wrapper{
+    width: 90vw;
+    height: auto;
+    background-color: transparent;
+    margin:24px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+.msg_box{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.msg_writing{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.d_none{
+    display: none;
+}
+.msg_head_wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 2vw;
+    color: blue;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.msg_menu{
+    border: none;
+    padding: 6px 10px;
+    font-size: 3vw;
+    background-color: transparent;
+   
+}
+.msg_t_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+     padding-bottom: 2rem;
+}
+
+.msg_img{
+    align-items: center;
+}
+
+.msg_info{
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.msg_find{
+    width: fit-content;
+    padding: 10px 26px;
+    background-color: #efba27;
+    color: white;
+    border-radius: 8px;
+}
+
+.msg_spec_modal{
+    background-color: t;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: auto;
+    border: 1px solid gray;
+    font-size: 2vw;
+    top: 10vh;
+    left:10vw ;
+}
+
+.msg_arc{
+    display: block;
+    font-size: 1vw;
+    padding: 8px 2px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid rgb(237, 232, 232);
+}
+
+}
+
+/* this is for premuim services */
+.pre_wrapper{
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+    align-content: center;
+}
+
+.pre_header{
+    font-weight: 800;
+    text-align: center;
+}
+.pre_tagline{
+    text-align: center;
+}
+
+.pre_options_wrap{
+    display: flex;
+    width: 90vw;
+    gap: 2rem;
+    justify-content: space-around;
+  
+}
+.pre_options{
+    width: 32vw;
+    display: flex;
+    height: 10vw;
+    align-items: center;
+    gap:3vw;
+    border-radius: 7px;
+    transition: 0.3s ease-out;
+}
+.pre_imggg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.pre_bg1{
+    background-color: #efba27;
+}
+.pre_bg2{
+    background-color: blue;
+}
+.pre_bg3{
+    background-color: #303a4b;
+}
+.pre_options:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+.pre_how_it_works{
+    width: fit-content;
+    padding: 10px 100px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.pre_how_it_works:hover{
+   
+    transition: 0.5s ease-in;
+}
+
+.pre_img{
+    border-radius: 100%;
+    height: 80%;
+    width: 30%;
+    margin-left: 2vw;
+}
+.pre_opt_text{
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+.pre_spec_t{
+    font-weight: 900;
+    font-size: 2.2vw;
+}
+
+.pre_how_it_works:hover{
+    background-color: rgba(0, 0, 255, 0.117);
+}
+
+@media only screen and (max-width: 750px){
+    .pre_wrapper{
+        padding-top: 4vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        align-items: center;
+        align-content: center;
+        
+    }
+    
+    .pre_header{
+        font-weight: 800;
+        text-align: center;
+    }
+    .pre_tagline{
+        text-align: center;
+    }
+    
+    .pre_options_wrap{
+        display: flex;
+        width: 90vw;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-around;
+      align-items: center;
+    }
+    .pre_options{
+        width: 80%;
+        display: flex;
+        height: 20vw;
+        align-items: center;
+        gap:3vw;
+        border-radius: 7px;
+        transition: 0.3s ease-out;
+    }
+    .pre_imggg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+    .pre_bg1{
+        background-color: #efba27;
+    }
+    .pre_bg2{
+        background-color: blue;
+    }
+    .pre_bg3{
+        background-color: #303a4b;
+    }
+    .pre_options:hover{
+        transform: scale(1.1);
+        transition: 0.2s ease-in;
+    }
+    .pre_how_it_works{
+        width: fit-content;
+        padding: 10px 100px;
+        border: 1px solid blue;
+        color: blue;
+    }
+    
+    .pre_how_it_works:hover{
+       
+        transition: 0.5s ease-in;
+    }
+    
+    .pre_img{
+        border-radius: 100%;
+        height: 16vw;
+        width: 18vw;
+        margin-left: 2vw;
+    }
+    .pre_opt_text{
+        color: white;
+        font-size: 3.4vw;
+        font-weight: 100;
+    }
+    .pre_spec_t{
+        font-weight: 900;
+        font-size: 4.2vw;
+    }
+    
+    .pre_how_it_works:hover{
+        background-color: rgba(0, 0, 255, 0.117);
+    }
+
+    /* phone design ends */
+
+}
+
+/* ADVERT DESIGN */
+
+.adv_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  width: 90vw;
+  margin: 0 auto;
+  height: 60vh;
+  box-shadow: 2px 2px 8px 5px gray;
+}
+
+
+.advert_header_wrap{
+    display: flex;
+    width: auto;    
+    padding: 20px 0;
+    margin-left: 20px;
+}
+.advert_head{
+    display: flex;
+    width: 100%;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+}
+
+.advert_text1{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+}
+.adv_active{
+   color: blue;
+}
+
+.adv_review{
+    color: #efba27;
+}
+.adv_decline{
+    color: #fe9696;
+}
+.adv_draft{
+    color: #303a4b;
+}
+.adv_closed{
+    color: #99b2bf;
+}
+.adv_all{
+    color: #99b2bf;
+}
+.advr_right{
+    background-color: blue;
+    color: white;
+}
+
+.adv_text_wrapper{
+    width: 100%;
+    border-top: 1px solid gray;
+        height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adv_spec_text>p{
+    text-align: center;
+    width: 30vw;
+    
+}
+
+/* mobile design */
+@media only screen and (max-width: 750px){
+    .adv_spec_text>p{
+        text-align: center;
+        width: 60vw;
+        
+    }
+}
+
+
+
+
+/* //notification design */
+.not_wrapper{
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 16px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+.not_headear_wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+.not_text2{
+    color: gray;
+}
+.not_wrapper_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    border-top: 1px solid gray;
+}
+
+/* profile page seting */
+.profile_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    width: 96vw;
+    margin: 0 auto;
+    gap: 4vh;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+
+.profile_logo_wrapper{
+    background-color: blue;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 20px;
+    align-items: center;
+    padding-top: 6px;
+}
+.profile_text{
+    display: flex;
+    gap:1.5vw;
+    align-items: center;
+}
+.profile_setting{
+    color: white;
+}
+.profile_setting:hover{
+    color: black;
+}
+
+
+.p_logo{
+    padding: 4px 10px;
+    background-color: #efba27;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-weight: 600;
+}
+
+.profile_text1{
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    background-color: white;
+    font-weight: 600;
+    width: 100%;
+}
+.profile_text1:hover{
+    background-color: #99b2bf;
+}
+.p_icon1{
+    padding-right: 1rem;
+}
+.profile_text_wrapper{
+    border-bottom: 1px solid whitesmoke;
+}
+.profile_text1:hover{
+    color: black;
+}
+
+
+.feed_wrapper{
+    background-color: white;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    flex-direction: column;
+}
+.feed_btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: fit-content;
+    padding: 8px 100px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* MY BALANCE PAGE */
+.bal_wrap{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px 5px gray;
+}
+
+.bal_header_wrap{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    background-color: rgb(229, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bal_text1{
+    width: 45vw;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+}
+.bal_style_text{
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+
+.bal_body1_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    border-bottom: 2px dotted gray;
+}
+.bal_text_bal{
+    background-color: #fe9696;
+    padding: 16px 16px;
+    border-radius: 5px;
+}
+
+.bal_rech{
+    background-color: #efba27;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    border: none;
+}
+
+.bal_body2_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.bal_body3_wrap{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: auto;
+    gap:2vh;
+    padding: 50px 0;
+}
+
+.bal_2_text{
+    font-weight: 800;
+}
+
+/* FOLLOWERS PAGE STYLING */
+
+.follow_wrapper{
+    box-shadow: 2px 2px 8px 5px gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+.follow_inner_wrap{
+    display: block;
+}
+
+.follow_body_wrap{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    color: #efba27;
+}
+
+.follow_invite{
+    color: #efba27;
+    background-color: transparent;
+    border: none;
+}
+
+.bi-telegram{
+    font-size: 4rem;
+}
+.f_wrapper{
+    display: none;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(235, 225, 225);
+    align-items: center;
+    align-content: center;
+}
+.f_logo{
+    font-size: 2rem;
+}
+.f_text1{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    align-content: center;
+}
+
+.f_link{
+    color: white;
+    background-color: blue;
+    padding: 6px 14px;
+    font-size: 0.7rem;
+    border-radius: 14px;
+}
+
+.f_link:hover{
+    color: white;
+    background-color: blue;
+}
+.f_whats{
+color:    rgb(35, 211, 102);
+}
+.f_faceb{
+    color: rgb(59, 89, 152) ;
+}
+.f_mail{
+color: rgb(255, 160, 16);
+}
+.f_twitter{
+    color: rgb(3, 169, 244);
+}
+/* managers modal box styling */
+.man_Call_Wrapper{
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+justify-content: center;
+align-items: center;
+align-content: center;
+background-color: rgba(0, 0, 0, 0.473);
+}
+
+.man_body_wrapper{
+    width: 40vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.man_button{
+    background-color: transparent;
+    text-align: end;
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.man_w_call{
+    text-align: center;
+}
+
+.man_yes{
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.man_no{
+    background-color: white;
+    color: blue;
+    padding: 8px 16px;
+    border: 1px solid blue;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+.man_no:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* mobile design */
+@media only screen and (max-width: 750px){
+    .man_body_wrapper{
+        width: 60vw;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 40px;
+        border-radius: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    
+}
