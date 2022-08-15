@@ -11,10 +11,7 @@ Komso web application is a clone site of the popularly known african online mark
   
   Access this site  here [kosmo link](https://www.kosmo.davisisibor.com)
   
+
+  ![Realtor]( https://davisisibor.com/wp-content/uploads/2020/09/product_display.png)
   
-  <strong> What i learned : </strong> 
-  1. javascript DOM and localstorage 
-  2. css postioning and adaptation to different screen sizes ( flex box to be precise )
-  3.proper Html class decleration
-  4.Jquey selection
-  
+
